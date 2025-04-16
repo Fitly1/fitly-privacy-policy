@@ -1,6 +1,54 @@
 # fitly-privacy-policy
 Privacy policy for the FITLY App
 
+class PrivacyPolicyPage extends StatelessWidget {
+  const PrivacyPolicyPage({super.key});
+
+  // Helper for section titles
+  Widget _buildSectionTitle(String title) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 20.0, bottom: 8.0),
+      child: Text(
+        title,
+        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+      ),
+    );
+  }
+
+  // Helper for section content
+  Widget _buildSectionContent(String content) {
+    return Text(
+      content,
+      style: const TextStyle(fontSize: 16, height: 1.5),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Privacy Policy'),
+        backgroundColor: const Color.fromARGB(255, 255, 167, 38),
+      ),
+      backgroundColor: Colors.white,
+      body: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+        child: ListView(
+          children: [
+            // Main Title (Centered)
+            const Text(
+              'Privacy Policy',
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 8.0),
+            const Text(
+              'Last Updated: April 15, 2025',
+              style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
+              textAlign: TextAlign.center,
+            ),
+            const Divider(height: 32, thickness: 2),
+
             // Section 1: Introduction
             _buildSectionTitle('1. Introduction'),
             _buildSectionContent(

@@ -1,6 +1,6 @@
 # Privacy Policy for FITLY
 
-_Last Updated: April 15, 2025_
+_Last Updated: June 09, 2025_
 
 ## 1. Introduction
 Fitly ("the Platform") operates in Australia and is committed to protecting your privacy and complying with the Australian Privacy Act 1988. This Privacy Policy outlines how we collect, use, store, and protect your personal information when you use our Platform. By accessing or using the Platform, you consent to the practices described in this Privacy Policy.
@@ -8,7 +8,14 @@ Fitly ("the Platform") operates in Australia and is committed to protecting your
 ## 2. Information We Collect
 We collect the following types of information:
 
-- **Personal Information:** Name, email address, phone number, business details (e.g., ABN if applicable), trainer certifications, and insurance details if provided. This includes information shared during communications with the Platform.
+- **Personal Information:** Name, email address, phone number, date of birth, business details (e.g., ABN if applicable), trainer certifications, and insurance details if provided. This includes information shared during communications with the Platform.
+
+- **Age Verification:** We ask for your date of birth solely to verify that you are 18 years or older before using the FITLY platform. This is a mandatory requirement to access our services. Your date of birth is:
+  - Only used for age verification
+  - Not used for advertising, analytics, or personalization
+  - Not shared with third parties
+  - Stored securely and encrypted
+
 - **Usage Data:** IP addresses, device information, browser type, interactions with the Platform, and cookies/tracking data for analytics and personalization. Some data is collected passively through usage logs.
 
 ## 3. How We Collect Information
